@@ -1,0 +1,59 @@
+
+.meu-nome {
+  text-align: center;
+  font-family: fantasy;
+  font-size: 60px;
+}
+.ondemoro {
+  font-weight: 800;
+  font-style: italic;
+  text-decoration-line: initial;
+}
+.ul {
+  color: #fff;
+}
+.proatividade {
+  font-size: 20px;
+}
+.comunicar {
+  font-size: 25px;
+}
+.resiliência {
+  font-size: 30px;
+}
+.atenção {
+  font-size: 35px;
+}
+.organização {
+  font-size: 25px;
+}
+body {
+  background-color: #e5989b;
+  padding: 3%;
+}
+#texto1 {
+  float: left;
+  height: 280px;
+  padding: 10px;
+  background-color: hotpink;
+}
+.conteudo-imagem {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 300px;
+    position: relative;
+  }
+  .descrição {
+    position: absolute;
+    font-size: 20px;
+    top: 108px;
+    right: 8%;
+    float: left;
+  }
+  ul li:nth-child(odd){
+    background-color: lightseagreen;
+  }
+
+
+
