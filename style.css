@@ -1,32 +1,8 @@
-.container {
-  display: inline-grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: 2fr;
-  background-color: #ee93c8;
-  padding: 10px;
-}
-.grid-descricao {
-  border: none;
-  text-align: center;
-}
-.descrição {
-  text-align: center;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-}
-.habilidades {
-  border: none;
-}
 
-.imagem-conteudo {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-}
 .meu-nome {
   text-align: center;
-  font-family: initial;
+  font-family: fantasy;
+  font-size: 60px;
 }
 .ondemoro {
   font-weight: 800;
@@ -53,8 +29,31 @@
 }
 body {
   background-color: #e5989b;
+  padding: 3%;
 }
-#minha-foto {
+#texto1 {
   float: left;
-  height: 300px;
+  height: 280px;
+  padding: 10px;
+  background-color: hotpink;
 }
+.conteudo-imagem {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 300px;
+    position: relative;
+  }
+  .descrição {
+    position: absolute;
+    font-size: 20px;
+    top: 108px;
+    right: 8%;
+    float: left;
+  }
+  ul li:nth-child(odd){
+    background-color: lightseagreen;
+  }
+
+
+
