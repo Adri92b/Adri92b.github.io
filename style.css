@@ -1,50 +1,60 @@
-<style>
-      .meu-nome{
-        font-family: initial;
-        } 
-      .descrição{
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-       }
-      .ondemoro{
-        font-weight: 800;
-        font-style: italic;
-        text-decoration-line: initial;
-       }
-       .ul{
-         color: #fff;
-       }
-       .proatividade{
-         font-size: 20px;
-         }
-       .comunicar{
-         font-size: 25px;
-         }
-         .resiliência{
-           font-size: 30px;
-         }
-         .atenção{
-           font-size: 35px;
-         }
-         .organização{
-           font-size: 25px;
-         }
+.container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 2fr;
+  background-color: #ee93c8;
+  padding: 10px;
+}
+.grid-descricao {
+  border: none;
+  text-align: center;
+}
+.descrição {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.habilidades {
+  border: none;
+}
 
-        body{ 
-        background-color: #e5989b;
-        }
-
-        #miha-foto{
-            float: left;
-            height: 300px;
-        }
-        .imagem-conteudo{
-            height: 200px;
-        }
-        
-       
-        div{
-            border: 2px solid green;
-        }
-
-
-</style>
+.imagem-conteudo {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.meu-nome {
+  text-align: center;
+  font-family: initial;
+}
+.ondemoro {
+  font-weight: 800;
+  font-style: italic;
+  text-decoration-line: initial;
+}
+.ul {
+  color: #fff;
+}
+.proatividade {
+  font-size: 20px;
+}
+.comunicar {
+  font-size: 25px;
+}
+.resiliência {
+  font-size: 30px;
+}
+.atenção {
+  font-size: 35px;
+}
+.organização {
+  font-size: 25px;
+}
+body {
+  background-color: #e5989b;
+}
+#minha-foto {
+  float: left;
+  height: 300px;
+}
